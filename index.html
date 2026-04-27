@@ -27,14 +27,20 @@
             align-items: center;
             padding: 20px 10%;
             border-bottom: 1px solid var(--border);
+            background: #fff;
         }
 
-        .logo-placeholder {
-            height: 60px;
-            width: 180px;
+        .logo-box {
+            height: 70px;
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        .logo-box img {
+            max-height: 100%;
+            width: auto;
+            object-fit: contain;
         }
 
         .container {
@@ -84,22 +90,10 @@
         }
 
         .info-item:last-child { border-right: none; }
-
-        .info-item strong {
-            display: block;
-            font-size: 0.75rem;
-            color: var(--text-gray);
-            text-transform: uppercase;
-            margin-bottom: 5px;
-        }
-
+        .info-item strong { display: block; font-size: 0.75rem; color: var(--text-gray); text-transform: uppercase; margin-bottom: 5px; }
         .info-item span { font-weight: 600; font-size: 1rem; }
 
-        .agenda-section {
-            padding: 35px;
-            background: white;
-        }
-
+        .agenda-section { padding: 35px; background: white; }
         .agenda-section h2 {
             font-size: 1.2rem;
             margin-top: 0;
@@ -110,17 +104,8 @@
             margin-bottom: 20px;
         }
 
-        .agenda-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 25px;
-        }
-
-        .topic {
-            padding-left: 15px;
-            border-left: 3px solid var(--brand-blue);
-        }
-
+        .agenda-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 25px; }
+        .topic { padding-left: 15px; border-left: 3px solid var(--brand-blue); }
         .topic strong { display: block; font-size: 1rem; margin-bottom: 5px; }
         .topic p { margin: 0; font-size: 0.9rem; color: var(--text-gray); }
 
@@ -165,6 +150,8 @@
             align-items: center;
             margin-top: 50px;
             opacity: 0.7;
+            flex-wrap: wrap;
+            gap: 10px;
         }
 
         .house-mini { font-size: 0.75rem; font-weight: bold; color: #777; border: 1px solid #eee; padding: 10px; border-radius: 4px; }
@@ -181,17 +168,18 @@
         @media (max-width: 768px) {
             .agenda-grid, .info-header { grid-template-columns: 1fr; }
             .info-item { border-right: none; border-bottom: 1px solid var(--border); }
+            .nav-header { flex-direction: column; gap: 15px; }
         }
     </style>
 </head>
 <body>
 
     <nav class="nav-header">
-        <div class="logo-placeholder">
-            <img src="URL_LOGO_CAMPUSLA_GITHUB" alt="CampusLA" style="max-width: 100%;">
+        <div class="logo-box">
+            <img src="Logo Campus azul.jpg" alt="CampusLA">
         </div>
-        <div class="logo-placeholder">
-            <img src="URL_LOGO_SECRETARIA_GITHUB" alt="Sec. Educación Boyacá" style="max-width: 100%;">
+        <div class="logo-box">
+            <img src="logosec.jpg" alt="Secretaría de Educación Boyacá">
         </div>
     </nav>
 
