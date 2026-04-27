@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualización Normativa 018035 | Sec. Educación & CampusLA</title>
+    <style>
+        :root {
+            --brand-blue: #1a73e8;
+            --text-dark: #202124;
+            --text-gray: #5f6368;
+            --border: #dadce0;
+            --bg-light: #f8f9fa;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: var(--text-dark);
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .nav-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo-placeholder {
+            height: 60px;
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .top-tag {
+            text-align: center;
+            color: var(--brand-blue);
+            font-weight: 700;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 500;
+            text-align: center;
+            margin: 0 0 40px 0;
+            line-height: 1.2;
+            color: var(--text-dark);
+        }
+
+        .info-card {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .info-header {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background: var(--bg-light);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .info-item {
+            padding: 20px;
+            text-align: center;
+            border-right: 1px solid var(--border);
+        }
+
+        .info-item:last-child { border-right: none; }
+
+        .info-item strong {
+            display: block;
+            font-size: 0.75rem;
+            color: var(--text-gray);
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+
+        .info-item span { font-weight: 600; font-size: 1rem; }
+
+        .agenda-section {
+            padding: 35px;
+            background: white;
+        }
+
+        .agenda-section h2 {
+            font-size: 1.2rem;
+            margin-top: 0;
+            color: var(--brand-blue);
+            border-bottom: 2px solid var(--brand-blue);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        .agenda-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .topic {
+            padding-left: 15px;
+            border-left: 3px solid var(--brand-blue);
+        }
+
+        .topic strong { display: block; font-size: 1rem; margin-bottom: 5px; }
+        .topic p { margin: 0; font-size: 0.9rem; color: var(--text-gray); }
+
+        .form-box {
+            background: #fff;
+            padding: 40px;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 14px;
+            margin: 10px 0;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            font-size: 1rem;
+            box-sizing: border-box;
+        }
+
+        input:focus { outline: none; border: 2px solid var(--brand-blue); }
+
+        .btn-confirm {
+            background: var(--brand-blue);
+            color: white;
+            border: none;
+            padding: 16px;
+            width: 100%;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .btn-confirm:hover { background: #1765cc; }
+
+        .houses-strip {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+            opacity: 0.7;
+        }
+
+        .house-mini { font-size: 0.75rem; font-weight: bold; color: #777; border: 1px solid #eee; padding: 10px; border-radius: 4px; }
+
+        footer {
+            margin-top: 60px;
+            padding: 40px;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            font-size: 0.85rem;
+            color: var(--text-gray);
+        }
+
+        @media (max-width: 768px) {
+            .agenda-grid, .info-header { grid-template-columns: 1fr; }
+            .info-item { border-right: none; border-bottom: 1px solid var(--border); }
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-header">
+        <div class="logo-placeholder">
+            <img src="URL_LOGO_CAMPUSLA_GITHUB" alt="CampusLA" style="max-width: 100%;">
+        </div>
+        <div class="logo-placeholder">
+            <img src="URL_LOGO_SECRETARIA_GITHUB" alt="Sec. Educación Boyacá" style="max-width: 100%;">
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="top-tag">Convocatoria Técnico-Administrativa</div>
+        <h1>Actualización Norma 018035 de 2021 MEN:<br>Exámenes Internacionales de Certificación</h1>
+        
+        <div class="info-card">
+            <div class="info-header">
+                <div class="info-item">
+                    <strong>Duración</strong>
+                    <span>2 Horas Ejecutivas</span>
+                </div>
+                <div class="info-item">
+                    <strong>Lugar</strong>
+                    <span>Aula Virtual Directa</span>
+                </div>
+                <div class="info-item">
+                    <strong>Inversión</strong>
+                    <span style="color: #188038;">Costo Cero ($0)</span>
+                </div>
+            </div>
+
+            <div class="agenda-section">
+                <h2>Agenda Técnica del Evento</h2>
+                <div class="agenda-grid">
+                    <div class="topic">
+                        <strong>Eliminación de la Desinformación</strong>
+                        <p>Claridad absoluta sobre la validez de certificados para procesos de grado y bilingüismo regional.</p>
+                    </div>
+                    <div class="topic">
+                        <strong>Cierre de Brechas</strong>
+                        <p>Herramientas para que las instituciones accedan a estándares globales sin intermediarios.</p>
+                    </div>
+                    <div class="topic">
+                        <strong>Ecosistemas Internacionales</strong>
+                        <p>Análisis técnico de Oxford, Pearson VUE, ETS (TOEFL), Trinity y Linguaskill.</p>
+                    </div>
+                    <div class="topic">
+                        <strong>Implementación Legal</strong>
+                        <p>Cumplimiento estricto de la Resolución 018035 ante entes de control.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-box">
+            <h3>Registro de Asistencia Institucional</h3>
+            <p style="color: var(--text-gray); font-size: 0.9rem; margin-bottom: 25px;">
+                Ingrese sus datos institucionales para recibir las credenciales de acceso.
+            </p>
+            
+            <form action="https://formsubmit.co/eatramites1@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nuevo Registro: Mesa Técnica Norma 018035">
+                <input type="hidden" name="_next" value="https://www.campuslatinoamerica.edu.co">
+                <input type="hidden" name="_captcha" value="false">
+
+                <input type="text" name="Nombre_Completo" placeholder="Nombre y Apellido" required>
+                <input type="text" name="Cargo_Entidad" placeholder="Institución Educativa / Entidad" required>
+                <input type="email" name="Email_Oficial" placeholder="Correo Institucional (.edu.co / .gov.co)" required>
+                
+                <button type="submit" class="btn-confirm">CONFIRMAR REGISTRO OFICIAL</button>
+            </form>
+        </div>
+
+        <div class="houses-strip">
+            <div class="house-mini">OXFORD</div>
+            <div class="house-mini">PEARSON</div>
+            <div class="house-mini">ETS (TOEFL)</div>
+            <div class="house-mini">ORACLE</div>
+            <div class="house-mini">TRINITY</div>
+            <div class="house-mini">CAMBRIDGE</div>
+        </div>
+
+        <footer>
+            <strong>Mesa Técnica Departamental de Bilingüismo 2026</strong><br>
+            Secretaría de Educación de Boyacá | Campus Latinoamérica<br>
+            <a href="https://www.campuslatinoamerica.edu.co" style="color: var(--brand-blue); text-decoration: none;">www.campuslatinoamerica.edu.co</a>
+        </footer>
+    </div>
+
+</body>
+</html>
